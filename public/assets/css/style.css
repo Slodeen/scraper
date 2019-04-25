@@ -1,0 +1,63 @@
+body {
+    background-image: url("/assets/images/background.jpg");
+    background-repeat: unset;
+    padding-top: 70px;
+    background-position: 65%;
+    }
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
+
+.col-md-12{
+
+    background-color: darkslategrey;
+    opacity: 0.9;
+    color: skyblue;
+}
+
+.container{
+
+    background-color: gray;
+    color: skyblue;
+    opacity: 0.9;
+}
+
+
+.btn{
+background-color: skyblue;
+
+}
+
+.card{
+
+    padding: 1%;
+}
+
+.navbar{
+
+    opacity: 0.9;
+}
+
+#navbar2{
+
+    opacity: 0.9;
+    background-color: teal;
+}
+
+.navbar a:hover{
+
+    background-color:teal;
+    font-size: 25px;
+    border-radius: unset;
+
+}
