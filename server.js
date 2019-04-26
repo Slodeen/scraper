@@ -35,6 +35,7 @@ app.set("view engine", "handlebars");
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
 var db = mongoose.connect(MONGODB_URI);
+var db = mongoose.createConnection('mongodb://heroku_ll85bz51:Zo5fP99P2qRA_z7V0MtC0zIgwHwZmIyy@ds015962.mlab.com:15962/heroku_ll85bz51')
 
 //mongoose.connect("mongodb://localhost/NewsScraper", { useNewUrlParser: true });
 // var db = mongoose.connection;
